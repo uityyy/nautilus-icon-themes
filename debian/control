@@ -1,0 +1,29 @@
+Source: nautilus-icon-themes
+Maintainer: Timothy N. Gaskell <tngaskell@gmail.com>
+Build-Depends: debhelper-compat (=13),
+Section: x11
+Standards-Version: 3.9.8
+
+Package: nautilus-icon-themes
+Architecture: all
+Recommends: gnome-icon-theme-gperfection2
+Suggests: gnome2000-icon-theme
+Section: x11
+Description: Icon themes based on Nautilus 1 themes
+ All these icons come from Debian 3's Nautilus 1.0.6
+ package. They represent themes used by the GNOME 1 desktop
+ back before the modern icon theme format existed.
+ As arranged here, they can live again in Xfce, etc.
+ .
+ Included themes:
+ * Nautilus (the old default theme)
+ * Nautilus Antialiased
+    (varient with shadows, set to inherit gperfection2 if installed)
+ * Crux-Eggplant
+ * Crux-Teal     (to accompany the GTK1 Crux look)
+ * Sierra
+ * Sierra Antialiased
+ * Tahoe
+ .
+ The original package's GNOME theme is omitted.
+ See gnome2000-icon-theme for a modern equivalent.

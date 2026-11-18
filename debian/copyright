@@ -1,0 +1,41 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/uityyy/nautilus-icon-themes
+Upstream-Name: nautilus-icon-themes
+Upstream-Contact: Timothy N. Gaskell <tngaskell@gmail.com>
+
+Files: *
+Copyright: 1997-2001 Free Software Foundation, Inc.
+           1999-2000 Red Hat, Inc.
+           2000 Eazel, Inc.
+License: GPL-2+
+Note: The copyright file of the Debian 3.0
+ nautilus 1.0.6 package, where these icons were sourced
+ only mention's Red Hat and Eazel's ownership,
+ but some of these icons are clearly derivative of
+ the others that can be found in gnome-panel-data
+ and gmc, so the same copyright should apply.
+
+Files: Debian/*
+Copyright: 2026, Timothy N. Gaskell <tngaskell@gmail.com>
+License: CC0
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: CC0
+ On Debian systems the full text of the CC0 license can be found in
+ /usr/share/common-licenses/CC0-1.0

@@ -1,0 +1,19 @@
+gnome2000-icon-theme (0.2.0) UNRELEASED; urgency=low
+
+  * Arranged GNOME 1 icons from to meet the expectations of modern Xfce
+      Files are sourced from Debian 3.0, specifically
+        - gnome-panel-data_1.4.0.6-5_all.deb
+        - gmc_4.5.55-1.2woody6_i386.deb
+        - nautilus_1.0.6-5_i386.deb
+        - gnome-libs_1.4.1.4.orig.tar.gz
+            (for the icons that back then were compiled into libgnomeui32)
+  * Modified emblem-symbolic-link.png to have a larger canva size
+      so Thunar won't make it excessively large.
+  * Create machine-scaled 24x24 versions of several icons because
+      the GTK file-open dialog shows them without scaling:
+        - drive-harddisk
+        - user-desktop
+        - user-home
+  * Debianization of the initial public release.
+
+ -- Timothy N. Gaskell <tngaskell@gmail.com>  Wed, 29 Jul 2026 02:46:00 -0500

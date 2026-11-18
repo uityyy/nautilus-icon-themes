@@ -1,0 +1,8 @@
+nautilus-icon-themes (0.2.0) unstable; urgency=low
+
+  * Arraged Nautilus 1 themes (excluding GNOME) into modern icon themes.
+    Non-antialiased versions of the Crux icons are also omitted as the 
+    visual differences seemed to small to justify extra theme-list entries.
+
+ -- Timothy N. Gaskell <tngaskell@gmail.com>  Wed, 18 Nov 2026 02:46:30 -0600
+
